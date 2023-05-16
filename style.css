@@ -42,7 +42,7 @@ html {
 }
  
 
-.upper , .lower{
+.upper , .lower, .set{
   background-color: rgb(15, 63, 196);
   border: 1px solid black;
   border-radius: 8px;

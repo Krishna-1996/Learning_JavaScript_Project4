@@ -13,11 +13,19 @@ const decrementNum = () => {
   totalCount.innerHTML = count;
 };
 
+// const resetNum = () => {
+//   document.getElementById("container").reset()
+// };
+
+  
+
 //Add click Event
 //Select Respective Button
 const incrementCount = document.getElementById("up");
 const decrementCount = document.getElementById("low");
+// const resetCount = document.getElementById("reset");
 
 //Add Click Event to button
 incrementCount.addEventListener("click", incrementNum);
 decrementCount.addEventListener("click", decrementNum);
+// resetCount.addEventListener("click", resetNum);
